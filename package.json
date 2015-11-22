@@ -1,0 +1,25 @@
+{
+  "name": "lambda-es6-example",
+  "version": "1.0.0",
+  "description": "A simple example showing how to deploy AWS Lambdas written with JS ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rricard/lambda-es6-example.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "example",
+    "es6"
+  ],
+  "author": "Robin Ricard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rricard/lambda-es6-example/issues"
+  },
+  "homepage": "https://github.com/rricard/lambda-es6-example#readme"
+}
