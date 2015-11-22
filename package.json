@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
+    "prepublish": "webpack",
     "test": "exit 1"
   },
+  "bin": "./bin/run.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rricard/lambda-es6-example.git"
