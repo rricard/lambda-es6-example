@@ -1,3 +1,5 @@
+/* @flow */
+
 import assert from "assert";
 
 import {lambdaPromisifier} from "../lib/lambda-promisifier.js"
