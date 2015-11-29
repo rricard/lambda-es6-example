@@ -27,10 +27,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel',
-        query: {
-          presets: ['es2015'],
-          plugins: ['syntax-flow', 'transform-flow-strip-types']
-        }
+        query: JSON.parse(
+          fs.readFileSync(path.join(__dirname, ".babelrc"), {encoding: "utf8"})
+        )
       },
       {
         test: /\.json$/,
